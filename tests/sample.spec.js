@@ -5,6 +5,6 @@ test("login Function", async ({ page }) => {
     await page.waitForTimeout(3000)
 })
 test("login Function", async ({ page }) => {
-    await page.goto('https://www.snapdeal.in/')
+    await page.goto('https://www.meesho.in/')
     await page.waitForTimeout(3000)
 })
