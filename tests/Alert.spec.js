@@ -20,7 +20,7 @@ test('Alert Handling', async ({ page }) => {
 
     await page.once('dialog', async (dialog) => {
         await console.log("Prompt Alert :", dialog.message())
-        await dialog.accept('manianbu')
+        await dialog.accept('Kamal')
     })
 
     await page.locator('//button[@class="btn btn-info"]').click()
