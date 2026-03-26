@@ -4,7 +4,9 @@ test("login Function", async ({ page }) => {
     await page.goto('https://www.amazon.in/')
     await page.waitForTimeout(3000)
 })
+
 test("singin Function", async ({ page }) => {
+
     await page.goto('https://www.meesho.in/')
     await page.waitForTimeout(3000)
 })
